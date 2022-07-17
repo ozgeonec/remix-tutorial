@@ -3,10 +3,10 @@ import { Link, useLoaderData } from "@remix-run/react";
 
 import { getPosts } from "~/models/post.server";
 
-// type Post = {
-//   slug: string;
-//   title: string;
-// };
+type Post = {
+  slug: string;
+  title: string;
+};
 
 type LoaderData = {
   // this is a handy way to say: "posts is whatever type getPosts resolves to"
